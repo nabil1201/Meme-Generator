@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./meme.js"></script>
+</head>
+
+<body>
+    <h1>Meme Generator</h1>
+    <div id="main-content">
+        <div id="h2-tag">
+            <h2>Actions</h2>
+        </div>
+        <div id="input-section">
+            <button onclick="showMeme()">Generate Meme</button>
+            <button onclick="showJoke()">Tell me a Joke</button>
+            <button onclick="showQuote()">Random Quote</button>
+            <button onclick="showRiddle()">Random Riddle</button>
+            <button class="reveal-btn" onclick="revealAnswer()">Reveal Riddle Answer</button>
+        </div>
+        <div id="h2-tag">
+            <h2>Output Display</h2>
+        </div>
+        <div id="output-section">
+            <div id="meme-head">
+                <h3>Memes</h3>
+                <div class="meme-content">
+                    <img id="memePicture" src="">
+                </div>
+            </div>
+            <div>
+                <h3>Funny Jokes</h3>
+                <div class="joke-content"></div>
+            </div>
+            <div>
+                <h3>Random Quotes</h3>
+                <div class="quote-content"></div>
+            </div>
+            <div>
+                <h3>Riddles..!</h3>
+                <div class="riddle-content"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
